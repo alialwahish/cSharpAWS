@@ -1,0 +1,14 @@
+/home/ali/codingDojo/c#/cSharpBelt
+--output-path=obj/Release/netcoreapp2.0/
+--application-name=cSharpBelt
+--content-root=/home/ali/codingDojo/c#/cSharpBelt
+--file=/home/ali/codingDojo/c#/cSharpBelt/Views/Home/ActDetails.cshtml
+--file=/home/ali/codingDojo/c#/cSharpBelt/Views/Home/Dashboard.cshtml
+--file=/home/ali/codingDojo/c#/cSharpBelt/Views/Home/Index.cshtml
+--file=/home/ali/codingDojo/c#/cSharpBelt/Views/Home/NewAct.cshtml
+--file=/home/ali/codingDojo/c#/cSharpBelt/Views/Home/SignIn.cshtml
+--file=/home/ali/codingDojo/c#/cSharpBelt/Views/Shared/Error.cshtml
+--file=/home/ali/codingDojo/c#/cSharpBelt/Views/Shared/_Layout.cshtml
+--file=/home/ali/codingDojo/c#/cSharpBelt/Views/Shared/_ValidationScriptsPartial.cshtml
+--file=/home/ali/codingDojo/c#/cSharpBelt/Views/_ViewImports.cshtml
+--file=/home/ali/codingDojo/c#/cSharpBelt/Views/_ViewStart.cshtml

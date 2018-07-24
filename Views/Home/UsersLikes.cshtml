@@ -1,0 +1,28 @@
+
+<a href="/">Logoff</a>
+<a href="/Home/navToDashboard">Bright Ideas</a>
+<br><br>
+<a href="/Home/userDetails/@ViewBag.creator.UserId">@ViewBag.creator.Alias </a><span>Says:</span>
+<p>@ViewBag.idea.Description</p>
+
+
+
+<table class="table" style="width:400px;">
+
+<tr>
+    <th>Alias</th>
+    <th>Name</th>
+</tr>
+
+@foreach(var u in ViewBag.likedUsers){
+    <tr>
+        <td>
+            <a href="/Home/userDetails/@u.UserId">@u.Alias</a>
+        </td>
+        <td>@u.Name</td>
+    </tr>
+    
+    
+}
+
+</table>

@@ -1,0 +1,10 @@
+/home/ali/codingDojo/c#/cSharpBelt/bin/Release/netcoreapp2.0/cSharpBelt.deps.json
+/home/ali/codingDojo/c#/cSharpBelt/bin/Release/netcoreapp2.0/cSharpBelt.runtimeconfig.json
+/home/ali/codingDojo/c#/cSharpBelt/bin/Release/netcoreapp2.0/cSharpBelt.runtimeconfig.dev.json
+/home/ali/codingDojo/c#/cSharpBelt/bin/Release/netcoreapp2.0/cSharpBelt.dll
+/home/ali/codingDojo/c#/cSharpBelt/bin/Release/netcoreapp2.0/cSharpBelt.pdb
+/home/ali/codingDojo/c#/cSharpBelt/obj/Release/netcoreapp2.0/cSharpBelt.csproj.CoreCompileInputs.cache
+/home/ali/codingDojo/c#/cSharpBelt/obj/Release/netcoreapp2.0/cSharpBelt.AssemblyInfoInputs.cache
+/home/ali/codingDojo/c#/cSharpBelt/obj/Release/netcoreapp2.0/cSharpBelt.AssemblyInfo.cs
+/home/ali/codingDojo/c#/cSharpBelt/obj/Release/netcoreapp2.0/cSharpBelt.dll
+/home/ali/codingDojo/c#/cSharpBelt/obj/Release/netcoreapp2.0/cSharpBelt.pdb

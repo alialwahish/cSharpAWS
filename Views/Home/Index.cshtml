@@ -1,0 +1,39 @@
+﻿
+@using cSharpBelt.Models
+@model User
+
+<h1>Welcome</h1>
+
+
+
+
+<h2>Register</h2>
+<form  asp-action="create" asp-controller="Home" method="POST">
+  <span asp-validation-for="Name"></span>
+    <label asp-for="Name">Name : <input type="text" name="Name">
+    </label>
+    <br><br>
+
+      <span asp-validation-for="Alias"></span>
+    <label asp-for="Alias">Alias : <input type="text" name="Alias">
+    </label>
+<br><br>
+     <span asp-validation-for="Email"></span>
+    <label asp-for="Email">Email: <input type="email" name="Email">
+    </label>
+
+    <br><br>
+     <span asp-validation-for="Password"></span>
+    <label asp-for="Password">Password: <input type="password" name="Password">
+    </label>
+<br><br>
+    <span asp-validation-for="Confirm_Password"></span>
+    <label asp-for="Confirm_Password">Repeat Password: <input type="password" name="Confirm_Password">
+    </label>
+<br><br>
+    <input type="submit" value="Register">
+
+</form>
+<br>
+
+<a href="/Registerd">Already Registerd?</a>

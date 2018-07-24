@@ -1,0 +1,26 @@
+
+@using cSharpBelt.Models
+@model User
+
+<br><br>
+<h1>Sign In</h1>
+<h2>@ViewBag.err</h2>
+<form asp-action="login" method="POST">
+
+<span asp-validation-for="Email"></span>
+    <label asp-for="Email">Email: <input type="email" name="Email">
+    </label>
+
+    
+     <span asp-validation-for="Password"></span>
+    <label asp-for="Password">Password: <input type="password" name="Password">
+    </label>
+<br>
+    <input type="submit" value="Login">
+
+
+
+
+</form>
+
+<a href="/" >Register?</a>

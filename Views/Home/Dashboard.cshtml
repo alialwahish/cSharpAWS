@@ -1,0 +1,58 @@
+@using cSharpBelt.Models
+@model Ideas
+<br>
+
+<a href="/">Logoff</a>
+<p>Hi @ViewBag.user.Name !</p>
+<h1>@ViewBag.err</h1>
+
+<form asp-action="createNewAct">
+
+ <span asp-validation-for="Description"></span>
+<input type="text" name="Description" style="width:500px ; height:30px">
+
+<input type="submit" value="Idea!">
+
+
+</form>
+<br><br>
+
+@foreach(var idea in ViewBag.allActs){
+    bool liked= false;
+    @foreach(var like in idea.Likes){
+        @if(like.User== ViewBag.user){
+            liked=true;
+        }
+    }
+    @foreach(var user in ViewBag.allUsers){
+    
+     if(idea.UserId == user.UserId){
+         <a href="/Home/userDetails/@user.UserId" >@user.Alias</a>
+     }
+       
+    }
+
+
+<p style="outline:2px solid black; width:500px; padding:5px" >@idea.Description</p>
+
+if(!liked){
+
+<a href="/Home/join/@idea.IdeasId">Like |</a> 
+}
+else{
+    <span>liked</span>
+}
+
+<a href="/Home/users/Liked/@idea.IdeasId">@idea.NumOfLikes people </a> <span>liked this ! </span>
+
+ if(idea.UserId == ViewBag.user.UserId){
+         <a href="Delete/@idea.IdeasId">Delete</a>
+     }
+     <br><br>
+}
+
+
+
+
+
+
